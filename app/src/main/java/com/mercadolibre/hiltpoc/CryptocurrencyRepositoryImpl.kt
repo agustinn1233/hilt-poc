@@ -1,5 +1,10 @@
 package com.mercadolibre.hiltpoc
 
+/**
+ * Cryptocurrency repository impl
+ *
+ * @constructor Create empty Cryptocurrency repository impl
+ */
 class CryptocurrencyRepositoryImpl : CryptocurrencyRepository {
     override fun getCryptoCurrency() = listOf(
         Cryptocurrency("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/BTC_Logo.svg/1200px-BTC_Logo.svg.png",
